@@ -1,0 +1,48 @@
+.container {
+    display: grid;
+
+    gap: 10px;
+
+    grid-template-areas: 
+    "header header header header"
+    "main main main sidebar"
+    "main main main sidebar"
+    "main main main sidebar"
+    "footer footer footer footer";
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
+    background-color: aqua;
+   
+    border:3px black solid;
+   
+    text-align: center;
+
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: aqua;
+    border:3px black solid;
+}
+
+main {
+    grid-area: main;
+    background-color: aqua;
+
+
+    border:3px black solid;
+}
+
+footer {
+    grid-area: footer;
+    background-color: aqua;
+    border:3px black solid;
+    
+}
+
+#ll {
+    width: 10%;
+}
