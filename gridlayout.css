@@ -12,37 +12,71 @@
     height: 100vh;
 }
 
+body {
+    background-color: #00ffff;
+}
+
 header {
     grid-area: header;
-    background-color: aqua;
+    background-color: #ddf6ed;
    
-    border:3px black solid;
-   
-    text-align: center;
+    border: 3px black solid;
+    display: flex;
+    justify-content: center; /* Align horizontal */
+    align-items: center; /* Align vertical */
+
+    font-size: x-large;
+
 
 }
 
 aside {
     grid-area: sidebar;
-    background-color: aqua;
+    background-color: #ddf6ed;
     border:3px black solid;
 }
 
 main {
     grid-area: main;
-    background-color: aqua;
+    background-color: #ddf6ed;
 
 
     border:3px black solid;
+
+
+    color: #44917a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: smaller;
 }
 
 footer {
     grid-area: footer;
-    background-color: aqua;
+    background-color: #ddf6ed;
     border:3px black solid;
-    
+
+    display: flex;
+    justify-content: center; /* Align horizontal */
+    align-items: center; /* Align vertical */
+
+    text-indent: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+hr {
+
+}
+
+.logo {
+    width: 2.5%;
 }
 
 #ll {
-    width: 10%;
+    max-height: 100%;
+    height: 100%;
+    
+}
+
+#headertext {
+
 }
